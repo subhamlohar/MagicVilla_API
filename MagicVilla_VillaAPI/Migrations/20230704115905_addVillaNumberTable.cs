@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace MagicVilla_VillaAPI.Migrations
+namespace MagicVilla_Web.Migrations
 {
     /// <inheritdoc />
     public partial class addVillaNumberTable : Migration

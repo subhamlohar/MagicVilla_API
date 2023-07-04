@@ -1,11 +1,11 @@
 ﻿using System.Linq.Expressions;
 using AutoMapper;
-using MagicVilla_VillaAPI.Data;
-using MagicVilla_VillaAPI.Models;
-using MagicVilla_VillaAPI.Repository.IRepository;
+using MagicVilla_Web.Data;
+using MagicVilla_Web.Models;
+using MagicVilla_Web.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
-namespace MagicVilla_VillaAPI.Repository
+namespace MagicVilla_Web.Repository
 {
 	public class VillaRepository :Repository<Villa>, IVillaRepository
 	{

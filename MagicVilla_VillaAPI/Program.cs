@@ -1,9 +1,9 @@
 
 
-using MagicVilla_VillaAPI;
-using MagicVilla_VillaAPI.Data;
-using MagicVilla_VillaAPI.Repository;
-using MagicVilla_VillaAPI.Repository.IRepository;
+using MagicVilla_Web;
+using MagicVilla_Web.Data;
+using MagicVilla_Web.Repository;
+using MagicVilla_Web.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

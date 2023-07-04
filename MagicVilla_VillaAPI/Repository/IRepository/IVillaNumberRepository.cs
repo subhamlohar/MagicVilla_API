@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
-using MagicVilla_VillaAPI.Models;
+using MagicVilla_Web.Models;
 
-namespace MagicVilla_VillaAPI.Repository.IRepository
+namespace MagicVilla_Web.Repository.IRepository
 {
 	public interface IVillaNumberRepository : IRepository<VillaNumber>
 	{

@@ -1,13 +1,13 @@
 ﻿using System.Net;
 using AutoMapper;
 
-using MagicVilla_VillaAPI.Models;
-using MagicVilla_VillaAPI.Models.Dto;
-using MagicVilla_VillaAPI.Repository.IRepository;
+using MagicVilla_Web.Models;
+using MagicVilla_Web.Models.Dto;
+using MagicVilla_Web.Repository.IRepository;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MagicVilla_VillaAPI.Controllers
+namespace MagicVilla_Web.Controllers
 {
 	//[Route("api/[Controller]")]
 	[Route("api/VillaAPI")]
