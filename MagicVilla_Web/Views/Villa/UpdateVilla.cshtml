@@ -30,7 +30,7 @@
                 <label asp-for="Details" class="control-label pt-2" style="font-size:20px;"></label>
             </div>
             <div class="col-10 pb-3">
-                <textarea asp-for="Details" class="form-control" rows="5"></textarea>
+                <textarea asp-for="Details" class="form-control" rows="5" ></textarea>
                 <span asp-validation-for="Details" class="text-danger"></span>
             </div>
 
@@ -62,7 +62,7 @@
                 <label asp-for="Amenity" class="control-label pt-2" style="font-size:20px;"></label>
             </div>
             <div class="col-10 pb-3">
-                <textarea asp-for="Amenity" class="form-control"></textarea>
+                <textarea asp-for="Amenity" class="form-control" ></textarea>
                 <span asp-validation-for="Amenity" class="text-danger"></span>
             </div>
             <div class="col-5 offset-2">
@@ -75,7 +75,7 @@
     </div>
 </form>
 
-
+                
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial"/>
 }
