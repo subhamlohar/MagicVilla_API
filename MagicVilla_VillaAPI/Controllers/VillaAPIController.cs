@@ -27,7 +27,7 @@ namespace MagicVilla_Web.Controllers
 		}
 
 		[HttpGet]
-		[Authorize]
+		
 		[ProducesResponseType(StatusCodes.Status403Forbidden)]
 		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
 		[ProducesResponseType(StatusCodes.Status200OK)]
@@ -55,7 +55,7 @@ namespace MagicVilla_Web.Controllers
 		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
 		[ProducesResponseType(StatusCodes.Status400BadRequest)]
 		[ProducesResponseType(StatusCodes.Status404NotFound)]
-		[Authorize(Roles = "admin")]
+		
 		//[ProducesResponseType(200,Type=typeof(VillaDTO))]
 		public async Task<ActionResult<APIResponse>> GetVilla(int id)
 		{
