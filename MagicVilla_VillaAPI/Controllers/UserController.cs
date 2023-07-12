@@ -1,6 +1,6 @@
 ﻿using System.Net;
 using MagicVilla_VillaAPI.Models.Dto;
-using MagicVilla_VillaAPI.Repository.IRepository;
+using MagicVilla_VillaAPI.Repository.IRepostiory;
 using MagicVilla_Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +16,7 @@ namespace MagicVilla_VillaAPI.Controllers
 		public UserController(IUserRepository userRepo)
 		{
 			_userRepo = userRepo;
-			this._response = new();
+			_response = new();
 		}
 
 		[HttpPost("login")]
